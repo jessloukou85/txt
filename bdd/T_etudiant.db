@@ -1,0 +1,5 @@
+create database scholl;
+
+use scholl;
+
+create table etudiants (id int auto_increment,first_name varchar(10) not null,last_name varchar(10) not null,sexe char(1) not null,phone varchar(10) not null,address varchar(10) not null,mail varchar(10) not null,password varchar(10) not null,constraint pk_etudiant primary key (id));
